@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <style> 
+        body {
+    background-color: rgb(160,125,200);
+        }
+          h1 {
+    background-color: #8ab6f2;
+    font-weight: bold;
+    color: antiquewhite;
+    font-style: italic;
+    font-family: fantasy;   
+    position: absolute;
+              
+    }
+      
+     .project-title {
+    text-decoration: underline;
+    font-weight: 300;
+    color: azure;
+    }
+     
+        .project-description {
+    font-weight: 300;
+    color: azure;
+        }
+        
+        #prosthetic1 {
+    border: 5px dotted antiquewhite;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+        }
+        
+        #testp {
+    border: 4px dashed antiquewhite;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+        }
+        
+        #cs {
+    border: 12px ridge pink;
+        }
+        
+        #m {
+    border: 12px groove pink;
+        }
+        
+        #vcoding {
+    border: 10px double #c59be8;
+        }
+        
+        #v1 {
+    border: 10px double purple;
+        }
+        
+        #v2 {
+    border: 10px double #c59be8;
+    position: relative;
+        }
+        
+        .captions {
+    color:lightcyan;
+    font-style: italic;
+        }
+    </style>
+
+    <body>
+        
+        <br> <h1> My Eight Grade Tech Portfolio</h1> <br>
+        
+         <br> <p class="project-title">  Whitebox Learning Project </p>
+            <li> <a href="https://www.whiteboxlearning.com/"> White box learning </a></li>
+        <br>
+           <a href="images/prosthetic.jpg">
+                <img id="prosthetic1" style="width:390px;height:320px"
+                     src="images/prosthetic.jpg"></a> 
+        <p class="captions"> My prosthetic design </p> 
+            <a href="images/testing.jpg">
+                <img id="testp" style="width:390px;height:320px"
+                     src="images/testing.jpg"> </a>
+        <p class="captions"> Me (right) and the class testing our prosthetic arms after building them off of our virtual designs </p> </br>
+        
+        <p class="project-description"> Eight graders used Whitebox Learning to create prosthetic arms, testing them first on virtual simulations and later building functional prosthetics out of balsa wood. </p> </br>
+            
+    
+        <br> <p class="project-title"> 3D Modeling and Printing Project </p> 
+            <li> <a href="https://www.sketchup.com"> Sketchup 3D Modeling </a></li>
+                 <a href="images/coffeesleeve.JPG">
+                 <img id="cs" style="width:360px;height:495px"
+                      src="images/coffeesleeve.JPG"> </a>
+        <p class="captions"> My coffee sleeve </p>
+                 <a href="images/3D%20modeling.png">
+                    <img id="m" style="width:360;height:480"
+                         src="images/3D%20modeling.png"> </a>
+        <p class="captions"> My coffee sleeve design on Sketchup </p>
+                     
+                     <p class="project-description"> Eight graders made prosthetic adaptors built for attaching to a prosthetic arm made by Mrs. Trout. I chose to make a coffe/drink sleeve to help any person using the prosthetic hand hold drinks over a long period of time. </p> </br>
+
+
+        <br> <p class="project-title"> VEX Project </p>
+                 <a href="images/VEX%20project%20code.JPG">
+                 <img id="vcoding" style="width:400px;height:330px"
+                      src="images/VEX%20project%20code.JPG"> </a>
+        <p class="captions"> VEX Robot Code </p>
+                 <a href="images/Vex%201.JPG">
+                 <img id="v1" style="width:400px;height:330px"
+                      src="images/Vex%201.JPG"> </a>
+        <p class="captions"> Working on building my VEX Robot with  my team </p>
+                 <a href="images/Vex%202.JPG">
+                 <img id="v2" style="width:400px;height:330px"
+                      src="images/Vex%202.JPG"> </a>
+        <p class="captions"> Working on coding my VEX Robot with my team </p>
+                     <p class="project-description"> Eigth graders both built and coded VEX robots. We got to showcase our work in a fun competition where we had to link the robots to controllers and have them pick up mini soccer balls and footballs for points. </p> </br>
+    
+         <br> <p class="project-title"> Website Design Project </p>
+              <a href="images/sc%20website.png">
+              <img id="scw" style="width:400px;height:330px"
+                   src="images/sc%20website.png"> </a>
+        <p class="captions"> The coding for this website :-) </p>
+                    <p class="project-description"> Eigth graders coded their own websites after learning HTML and CSS code from Khan Academy. CSS was used to style the websites. </p>
+    
+        
+        
+    </body>
+    
+</html>
